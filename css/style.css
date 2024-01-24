@@ -1,6 +1,6 @@
 * {
     margin: 0%;
-    padding: 0% ;
+    padding: 0%;
     box-sizing: border-box;
 }
 
@@ -8,13 +8,15 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    
+
 }
 
 /* navbar styles start here */
-nav{
+nav {
     background-color: #9376e0;
+    margin-bottom: 80px;
 }
+
 .nav-container {
     min-height: 50px;
     display: flex;
@@ -28,14 +30,16 @@ nav{
     width: 50%;
     align-items: center;
 }
+
 .logo-container img {
-    
+
     width: 50px;
     object-fit: cover;
     margin-right: 20px;
 }
+
 .logo-container p {
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 400;
 }
 
@@ -50,16 +54,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 3.1rem;
 }
 
 .nav-items-container a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 400;
 }
-.nav-items-container .login-btn{
+
+.nav-items-container .login-btn {
     background-color: #e893cf;
     padding: 10px 20px;
     font-weight: 700;
@@ -67,3 +72,62 @@ nav{
     color: black;
     text-align: center;
 }
+
+/* man bags section start styles */
+.man-bags-container {
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.man-bags-text {
+    width: 100%;
+    text-align: center;
+}
+
+.man-bags-text h1 {
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3.1rem;
+    margin-bottom: 1.9rem;
+}
+
+.man-bags-text p {
+    font-size: 2.8rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-bottom: 1.9rem;
+
+
+}
+
+.icons-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 auto 40px;
+    font-size: 3.1rem;
+   
+}
+
+
+
+.man-bags-img img {
+    border-radius: .7rem;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-btn{
+    background-color: transparent;
+    padding: 1rem 1.5rem;
+    border: 2px solid #9376e0;
+    margin-right: 1.8rem;
+    border-radius: 5px;
+}
+/* man bags styles ends here */

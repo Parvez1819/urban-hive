@@ -10,4 +10,14 @@
     align-items: center;
     padding: 0;
    }
+   .nav-items-container .login-btn ,.man-bags-text{
+    margin-bottom: 10px;
+    width: 100%;
+   }
+   .man-bags-container{
+    flex-direction: column;
+   }
+   .man-bags-img{
+    padding: .8rem 1.3rem; 
+   }
 }
